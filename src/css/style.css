@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter',sans-serif;
+    /* background: url('../images/bg.jpg'); */
+}
+
+a {
+    text-decoration: none;
+    color: #5093E2;
+}
+
+.nav-link {
+    opacity: 0.6;
+    color: black;
+    margin-left: 1%;
+    font-size: 2em;
+    letter-spacing: 1px;
+    font-weight:400;
+}
+
+.level-1 {
+    display: flex;
+}
+
+
+
+
+@media only screen and (max-width: 500px) {
+
+    .quote {
+        display: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: #5093E2;
+    }
+
+    .nav-link {
+        opacity: 0.6;
+        color: white;
+        margin-left: 5%;
+        font-size: 1.3em;
+        letter-spacing: 1.5px;
+        font-weight:300;
+    }
+
+    body {
+        display: grid;
+        border: none;
+        margin: 0;
+        box-sizing: border-box;
+        color:#DCDCDC;
+        font-family: 'Inter', sans-serif;
+        background-color: #23252C;
+    }
+
+    .level-1 {
+        display: inline-block;
+    }
+    .info {
+        background-color:#1A1B21;
+        margin-left: 50px;
+        margin-right: 50px;
+        border-radius: 10px;
+        height: 110vh;
+    }
+
+    .profilePhoto {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .name {
+        text-align: center;
+        font-size: 36px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        margin-bottom:0;
+    }
+
+    .designation {
+        text-align: center;
+        margin-top:1%;
+        font-weight: normal;
+        color: #F3BF99;
+        font-size: 14px;
+    }
+
+    .user {
+        text-align: center;
+        font-size:13px;
+    }
+
+    .buttons {
+        text-align: center;
+        margin-top:35px;
+    }
+
+    .buttons > a {
+        text-decoration: none;
+        margin: 10px;
+        font-size: 14px;
+    }
+
+    .buttons > a > span {
+        margin: 5px;
+    }
+
+    .buttons .btn-mail {
+        background-color: white;
+        color: #374151;
+        border-radius: 5px;
+        width: 100px;
+        padding: 6px 20px;
+    }
+
+    .buttons .btn-link {
+        background-color:#5093E2;
+        color: white;
+        border-radius: 5px;
+        padding: 7px 15px;
+    }
+
+    .info .about, .info .interests {
+        text-align: justify;
+        margin: 10%;
+        line-height: 110%;
+    }
+
+    .about > p, .interests > p {
+        font-size: 12px;
+    }
+
+    .heading {
+        font-weight: 300;
+        margin: 5%;
+        font-size: 50px;
+    }
+
+    .tech {
+        margin: 15%;
+    }
+
+    .tech-stack {
+        display: flex;
+    }
+
+    .tech-icon {
+        width: 32px;
+    }
+
+    .tech-title {
+        font-size: 20px;
+        font-weight: 200;
+        margin-top: 5px;
+        margin-left: 15px;
+    }
+
+    .heading-2 {
+        font-size: 22px;
+        font-weight: 500;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .heading-3{
+        font-weight: 200;
+        letter-spacing: 1px;
+        text-align: justify;
+        text-decoration: none;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .heading-3 > p{
+        font-weight: 200;
+        letter-spacing: 1px;
+        text-align: justify;
+        text-decoration: none;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .timeline {
+        margin-left: 5%;
+    }
+
+    .description {
+        line-height: 1.8em;
+        font-weight: 300;
+        letter-spacing: 1px;
+        margin-right: 3%;
+    }
+
+    .project-icon {
+        width: 140px;
+        border-radius: 5px;
+        margin-left: 25%;
+    }
+
+    .socials > ul {
+        list-style: none;
+        display:flex;
+        margin-right: 15%;
+        justify-content: space-between;
+    }
+
+    
+}
