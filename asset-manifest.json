@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/dark-theme/static/css/main.a43cdc0e.css",
+    "main.js": "/dark-theme/static/js/main.c9f615e6.js",
+    "static/media/head_shot.jpg": "/dark-theme/static/media/head_shot.6f268d04350b3b004330.jpg",
+    "static/media/scikit.png": "/dark-theme/static/media/scikit.a772cceb2926554adaee.png",
+    "static/media/youtube.png": "/dark-theme/static/media/youtube.afff87fbb6179334e3c1.png",
+    "static/media/bse.png": "/dark-theme/static/media/bse.4b468323b7cfd80b4bed.png",
+    "static/media/appicon.png": "/dark-theme/static/media/appicon.da8682dd9f1bb652fbe6.png",
+    "static/media/whatnext.png": "/dark-theme/static/media/whatnext.d005c48d35b7d1c1ba04.png",
+    "static/media/es6.png": "/dark-theme/static/media/es6.20fd581276d2a96e9ebc.png",
+    "static/media/pawlife.png": "/dark-theme/static/media/pawlife.b18eda60a7fb80c330fe.png",
+    "static/media/url.jpg": "/dark-theme/static/media/url.c89d3316f0d614c64133.jpg",
+    "static/media/java.png": "/dark-theme/static/media/java.74329a08d3d934fb36ef.png",
+    "index.html": "/dark-theme/index.html",
+    "main.a43cdc0e.css.map": "/dark-theme/static/css/main.a43cdc0e.css.map",
+    "main.c9f615e6.js.map": "/dark-theme/static/js/main.c9f615e6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a43cdc0e.css",
+    "static/js/main.c9f615e6.js"
+  ]
+}
